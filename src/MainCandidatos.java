@@ -12,7 +12,7 @@ public class MainCandidatos {
 	public static void main(String[] args) {
 		
 		ArrayList<Candidato> candidatos = new ArrayList<Candidato>();
-		String csvArchive = "C:\Users\melch\OneDrive\Documentos\AppAcademyChallenge\Candidatos";
+		String csvArchive = "Candidatos.csv";
 		BufferedReader conteudoCSV = null;
 		String linha = "";
 		String csvSeparadorCampo = ";";
